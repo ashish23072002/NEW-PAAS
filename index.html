@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Page Section</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- <script src="https://cdn.tailwindcss.com"></script> -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+<link rel="stylesheet" href="style.css" type="text/css"> 
+<style>
+  /* Custom styles if needed */
+</style>
+</head>
+<body class="element">
+
+<!-- Navigation Bar -->
+<nav class="navbar" id="navbar">
+    <div class="logo">
+      <img src="./img/download.png" alt="Logo">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="get-started">
+      <a href="#" class="btn">Get Started</a>
+    </div>
+  </nav>
+
+    <section class="hero-section">
+            <div class="hs-item" style="background-image: url('./img/image.png');  opacity: 0.9;">
+                <div class="cn">
+                    <div class="row">
+                        <div class="hi-text">
+                            <div class="h-container">
+                                <h1 class="h-heading"><span id="typed-text"></span></h1>
+                                <p class="h-paragraph">The world's leading AI-powered developer platform.</p>
+                                <div class="h-form">
+                                    <input type="email" placeholder="Email address" class="h-input">
+                                    <button class="h-button">Sign up </button>
+                                    <button class="h-button h-button-secondary">Getting Started</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="intro-section">
+            <div class="cn">
+                <div class="row">
+                    <div class="hi-text">
+                        <div class="into-container">
+                            <div class="logo">
+                                <img src="./img/download.png" alt="Logo">
+                              </div>
+                              <h1>Introduction</h1>
+                              <p class="int-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta veritatis possimus cum harum porro fugiat recusandae accusamus, neque amet unde quia aliquam culpa voluptates vitae, cupiditate rerum architecto nesciunt vel.</p>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+    <section class="container ">
+        <div class="logos-container">
+            <div class="logo-item">
+                <div class="logo-content">
+                    <img src="./img/download-removebg-preview.png" alt="Placeholder image for React logo" class="logo-image">
+                    <p class="logo-title">React</p>
+                </div>
+            </div>
+            <div class="logo-item">
+                <div class="logo-content">
+                    <img src="https://placehold.co/50x50" alt="Placeholder image for Angular logo" class="logo-image">
+                    <p class="logo-title">Angular</p>
+                </div>
+            </div>
+            <div class="logo-item">
+                <div class="logo-content">
+                    <img src="https://placehold.co/50x50" alt="Placeholder image for Next.js logo" class="logo-image">
+                    <p class="logo-title">Next.js</p>
+                </div>
+            </div>
+        
+         
+            <div class="logo-item">
+            <div class="logo-content">
+                <img src="https://placehold.co/50x50" alt="Placeholder image for Vue.js logo" class="logo-image">
+                <p class="logo-title">Vue.js</p>
+            </div>
+            </div>
+            <div class="logo-item">
+            <div class="logo-content">
+                <img src="https://placehold.co/50x50" alt="Placeholder image for Svelte logo" class="logo-image">
+                <p class="logo-title">Svelte</p>
+            </div>
+            </div>
+            <div class="logo-item">
+            <div class="logo-content">
+                <img src="https://placehold.co/50x50" alt="Placeholder image for Flutter logo" class="logo-image">
+                <p class="logo-title">Flutter</p>
+            </div>
+            </div>
+            <div class="logo-item">
+            <div class="logo-content">
+                <img src="https://placehold.co/50x50" alt="Placeholder image for Go logo" class="logo-image">
+                <p class="logo-title">Go</p>
+            </div>
+            </div>
+            <div class="logo-item">
+            <div class="logo-content">
+                <img src="https://placehold.co/50x50" alt="Placeholder image for Python logo" class="logo-image">
+                <p class="logo-title">Python</p>
+            </div>
+            </div>
+            <div class="logo-item">
+            <div class="logo-content">
+                <img src="https://placehold.co/50x50" alt="Placeholder image for GitHub logo" class="logo-image">
+                <p class="logo-title">GitHub</p>
+            </div>
+            </div>
+        </div>
+      
+        <div class="custom-container">
+            <div class="custom-column">
+            <h2 class="custom-heading">Develop with popular frameworks and languages</h2>
+            <p class="custom-paragraph">
+                Project IDX makes it easier to start building an app that works across multiple platforms using a variety of templates for popular frameworks, such as Angular, Astro, Flutter, Go, Next.js, Python/Flask, React, Svelte and more. You can also customize your environment with Nix or import your existing applications from GitHub, with support for most tech stacks.
+
+            </p>
+            <button class="custom-button">Join Waitlist -</button>
+        </div>
+    </div>
+
+    <script>
+    // Initialize Typed.js
+    var typed = new Typed('#typed-text', {
+      strings: ["Vodafone", "V-Collab", ],
+      typeSpeed: 70, // Typing speed in milliseconds
+      backSpeed: 30, // Backspacing speed in milliseconds
+      loop: false // Whether to loop through the strings array
+    });
+  </script>
+   <script src="script.js"></script>
+ 
+ 
+</body>
+</html>
+
+
+  <!-- <div class="flex flex-wrap justify-around w-full md:w-1/2 mb-10 md:mb-0">
+        <div class="w-1/4 p-4">
+            <img src="https://placehold.co/50x50" alt="Placeholder image for React logo" class="mx-auto">
+            <p class="text-center mt-2">React</p>
+        </div>
+        <div class="w-1/4 p-4">
+            <img src="https://placehold.co/50x50" alt="Placeholder image for Angular logo" class="mx-auto">
+            <p class="text-center mt-2">Angular</p>
+        </div>
+        <div class="w-1/4 p-4">
+            <img src="https://placehold.co/50x50" alt="Placeholder image for Next.js logo" class="mx-auto">
+            <p class="text-center mt-2">Next.js</p>
+        </div>
+        <div class="w-1/4 p-4">
+            <img src="https://placehold.co/50x50" alt="Placeholder image for Vue.js logo" class="mx-auto">
+            <p class="text-center mt-2">Vue.js</p>
+        </div>
+        <div class="w-1/4 p-4">
+            <img src="https://placehold.co/50x50" alt="Placeholder image for Svelte logo" class="mx-auto">
+            <p class="text-center mt-2">Svelte</p>
+        </div>
+        <div class="w-1/4 p-4">
+            <img src="https://placehold.co/50x50" alt="Placeholder image for Flutter logo" class="mx-auto">
+            <p class="text-center mt-2">Flutter</p>
+        </div>
+        <div class="w-1/4 p-4">
+            <img src="https://placehold.co/50x50" alt="Placeholder image for Go logo" class="mx-auto">
+            <p class="text-center mt-2">Go</p>
+        </div>
+        <div class="w-1/4 p-4">
+            <img src="https://placehold.co/50x50" alt="Placeholder image for Python logo" class="mx-auto">
+            <p class="text-center mt-2">Python</p>
+        </div>
+        <div class="w-1/4 p-4">
+            <img src="https://placehold.co/50x50" alt="Placeholder image for GitHub logo" class="mx-auto">
+            <p class="text-center mt-2">GitHub</p>
+        </div>
+        </div> -->
+       
+ <!-- <div class="w-full md:w-1/2 p-10">
+      <h2 class="text-4xl font-bold mb-6">Develop with popular frameworks and languages</h2>
+      <p class="text-lg mb-6">
+        Project IDX makes it easier to start building an app that works across multiple platforms using a variety of templates for popular frameworks, such as Angular, Astro, Flutter, Go, Next.js, Python/Flask, React, Svelte and more. You can also customize your environment with Nix or import your existing applications from GitHub, with support for most tech stacks.
+      </p>
+      <button class="bg-blue-600 px-4 py-2 rounded text-white hover:bg-blue-700">Join Waitlist</button>
+    </div>
+     -->
+
